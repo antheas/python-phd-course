@@ -41,6 +41,7 @@ To ensure reproducibility, we pin Numpy's random seed to 128 and use the
 ## Structure
 The project will be implemented in Python, using the NumPy and Matplotlib libraries.
 The project will be structured in the following way:
+
 - `lorenz.py`: The main module that will contain the implementation of the Lorenz system.
 - `test_lorenz.py`: The test module that will contain the tests for the Lorenz system.
 - `diff.py`: The module that will contain the implementation of the Euler method.
