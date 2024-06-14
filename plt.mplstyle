@@ -1,0 +1,56 @@
+# axes.facecolor:     EEEEEE #white   # axes background color
+axes.edgecolor:     555555 #black   # axes edge color
+axes.linewidth:     1 #0.8     # edge line width
+axes.grid:          True #False   # display grid or not
+# axes.grid.axis:     y    # which axis the grid should apply to
+#axes.grid.which:    major   # grid lines at {major, minor, both} ticks
+#axes.titlelocation: center  # alignment of the title: {left, right, center}
+axes.titlesize:     medium #large   # font size of the axes title
+axes.titleweight:   normal  # font weight of title
+axes.titlecolor:    555555 #auto    # color of the axes title, auto falls back to
+# text.color as default value
+#axes.titley:        None    # position title (axes relative units).  None implies auto
+axes.titlepad:      3 # 6.0    # pad between axes and title in points
+axes.labelsize:     x-small  # font size of the x and y labels
+#axes.labelpad:      4.0     # space between label and axis
+#axes.labelweight:   normal  # weight of the x and y labels
+axes.labelcolor:    555555 #black
+axes.axisbelow:     True #line    # draw axis gridlines and ticks:
+
+# grid.color:     white #b0b0b0  # grid color
+grid.linestyle: -       # solid
+grid.linewidth: 1 #0.8     # in points
+#xtick.major.width:   0.8     # major tick width in points
+#xtick.minor.width:   0.6     # minor tick width in points
+xtick.major.pad:     2.3 # 3.5     # distance to major tick label in points
+#xtick.minor.pad:     3.4     # distance to the minor tick label in points
+xtick.color:          555555 #black   # color of the ticks
+#xtick.labelcolor:    inherit # color of the tick labels or inherit from xtick.color
+#xtick.labelsize:     medium  # font size of the tick labels
+xtick.direction:      out # direction: {in, out, inout}
+#xtick.minor.visible: False   # visibility of minor ticks on x-axis
+#xtick.major.top:     True    # draw x axis top major ticks
+#xtick.major.bottom:  True    # draw x axis bottom major ticks
+#xtick.minor.top:     True    # draw x axis top minor ticks
+#xtick.minor.bottom:  True    # draw x axis bottom minor ticks
+#xtick.alignment:     center  # alignment of xticks
+
+#ytick.left:          True    # draw ticks on the left side
+#ytick.right:         False   # draw ticks on the right side
+#ytick.labelleft:     True    # draw tick labels on the left side
+#ytick.labelright:    False   # draw tick labels on the right side
+#ytick.major.size:    3.5     # major tick size in points
+#ytick.minor.size:    2       # minor tick size in points
+#ytick.major.width:   0.8     # major tick width in points
+#ytick.minor.width:   0.6     # minor tick width in points
+#ytick.major.pad:     3.5     # distance to major tick label in points
+#ytick.minor.pad:     3.4     # distance to the minor tick label in points
+ytick.color:          555555 #black   # color of the ticks
+#ytick.labelcolor:    inherit # color of the tick labels or inherit from ytick.color
+#ytick.labelsize:     medium  # font size of the tick labels
+ytick.direction:      in # direction: {in, out, inout}
+
+axes.spines.left:   True  # display axis spines
+axes.spines.bottom: True
+axes.spines.top:    True
+axes.spines.right:  True
