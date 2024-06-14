@@ -11,7 +11,9 @@ and results in PNG and CSV files, and create tests to verify the functionality
 of the project.
 
 The differential equations that describe the Lorenz system are:
-$$\begin{aligned} \frac{dx}{dt} = \sigma(y - x) \\\frac{dy}{dt} = x(\rho - z) - y \\\frac{dz}{dt} = xy - \beta z \end{aligned}$$
+$$\frac{dx}{dt} = \sigma(y - x)$$
+$$\frac{dy}{dt} = x(\rho - z) - y$$
+$$\frac{dz}{dt} = xy - \beta z$$
 where $x$, $y$, and $z$ are the state variables, and $\sigma$, $\rho$, and $\beta$
 are the system parameters.
 
@@ -20,7 +22,9 @@ simple numerical method to solve ordinary differential equations.
 Essentially, we will use a small time step on a discrete time space, and
 on each time step, we will update the state variables by adding the product of
 the time step and their derivatives.
-$$\begin{aligned} x_{n+1} = x_n + \frac{dx}{dt} t_{\delta} \\y_{n+1} = y_n + \frac{dy}{dt} t_{\delta} \\z_{n+1} = z_n + \frac{dz}{dt} t_{\delta} \end{aligned}$$
+$$x_{n+1} = x_n + \frac{dx}{dt} t_{\delta}$$
+$$y_{n+1} = y_n + \frac{dy}{dt} t_{\delta}$$
+$$z_{n+1} = z_n + \frac{dz}{dt} t_{\delta}$$
 
 To color the plots, we will calculate the magnitude of the velocity vector
 of the differential equations and use it on a scatter plot with a colormap.
