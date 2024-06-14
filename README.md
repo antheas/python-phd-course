@@ -43,19 +43,29 @@ The project will be implemented in Python, using the NumPy and Matplotlib librar
 The project will be structured in the following way:
 
 - `lorenz.py`: The main module that will contain the implementation of the Lorenz system.
-- `test_lorenz.py`: The test module that will contain the tests for the Lorenz system.
 - `diff.py`: The module that will contain the implementation of the Euler method.
-- `test_diff.py`: The test module that will contain the tests for the Euler method.
+- `tests.py`: The test module that will contain the tests for the two functions.
+
+The tests can be ran using:
+```bash
+pytest tests.py
+```
+
+Standard NumPy arrays will be used to handle the history of the state variables,
+and the results will be saved in CSV files.
+Given their trivial size (5000), there is no need to use more complex data
+structures.
 
 ## Installation
 To ensure the reproducibility of the project, we will use a virtual environment
 combined with the `pip-tools` tool `pip-compile`.
 We begin by placing the dependencies in the `requirements.in` file:
 ```
+pandas
 numpy
 matplotlib
-pytest
 jupyterlab
+pytest
 ```
 Then, we compile the dependencies to the `requirements.txt` file,
 where they are frozen to the exact version:
